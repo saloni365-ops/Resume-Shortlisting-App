@@ -15,7 +15,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 # -----------------------------------------------------
 @st.cache_data
 def load_data():
-    dataset_path = r"D:\Saloni\VU\ML\Lab\Resume_Screening\AI_Resume_Screening.csv"
+    dataset_path = r"AI_Resume_Screening.csv"
     df = pd.read_csv(dataset_path)
     df["Recruiter Decision"] = df["Recruiter Decision"].map({"Hire":1,"Reject":0})
     df["resume_text"] = (
