@@ -2,8 +2,6 @@
 
 A Streamlit web app that uses ML + NLP to automatically rank and shortlist resumes against a job description. Upload multiple resumes, paste a job description, and get a ranked shortlist instantly.
 
-## Live Demo
-[Click here to try it →]([YOUR STREAMLIT LINK])
 
 ## Features
 - Upload multiple PDF/DOCX resumes
